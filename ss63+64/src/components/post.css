@@ -1,0 +1,84 @@
+.post-management {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-filter input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .filter-btn,
+  .new-post-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .new-post-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+  
+  .posts-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .posts-table th,
+  .posts-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .posts-table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .status {
+    display: inline-block;
+    padding: 3px 7px;
+    border-radius: 4px;
+  }
+  
+  .status.published {
+    background-color: lightgreen;
+  }
+  .block-btn,
+  .edit-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  .block-btn{
+    background-color: rgb(47, 237, 9);
+    color: white;
+    border: none;
+
+  }
+  
+  .edit-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
+img{
+    border-radius: 50%;
+}
